@@ -1,0 +1,103 @@
+body {
+  background-image: url(imagens/Cabodaroca.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgb(244, 238, 232);
+  text-align: right;
+  margin-right: 80px;
+  font-family: "Lora", serif;
+  font-family: "Roboto", sans-serif;
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    background: url(imagens/Cabodaroca.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.texto-principal {
+  width: 54%;
+  text-align: left;
+  padding: 20px;
+  position: absolute;
+}
+@media only screen and (max-width: 1000px) {
+  .texto-principal {
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+  }
+}
+.title {
+  font-size: 5vw;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 1000px) {
+  .title {
+    font-size: 15vw;
+    margin-bottom: 5px;
+  }
+}
+
+.paragrafo {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 100px 0%;
+  opacity: 0.8;
+}
+@media only screen and (max-width: 1000px) {
+  .paragrafo {
+    font-size: 8vw;
+    color: black;
+    background-color: aliceblue;
+    margin: 15% 0%;
+  }
+}
+
+ul {
+  list-style: none;
+  margin-top: 50px;
+}
+li {
+  display: inline;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 5px;
+}
+
+ul li a:hover {
+  opacity: 0.4;
+}
+
+.botao {
+  text-decoration: none;
+  background-color: rgba(250, 128, 114, 0.9);
+  padding: 10px 15px;
+  color: aliceblue;
+  font-size: 50px;
+  box-shadow: 0 4px 15px 15px rgba(250, 128, 114, 0.9);
+  border-radius: 5px;
+}
+.botao:hover {
+  background-color: rgba(250, 128, 114, 0.95);
+}
+.social-media {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+  .fa-brands {
+    font-size: xxx-large;
+  }
+}
